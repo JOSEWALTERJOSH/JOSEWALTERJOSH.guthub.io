@@ -1,0 +1,75 @@
+body {
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://picsum.photos/1600/900?random=1');
+    background-size: cover;
+    background-position: center;
+}
+.contenedor {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+h1 {
+    font-size: 3rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+h2 {
+    font-size: 2rem;
+    color: #ff8a80;
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.boton-redireccion {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ba55d3;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.boton-redireccion:hover {
+    background-color: #9b34b6;
+    transform: scale(1.05);
+}
+.frases {
+    margin: 20px auto;
+    font-size: 1.4rem;
+    color: #f1f1f1;
+    max-width: 600px;
+}
+.frases p {
+    margin: 10px 0;
+}
+.imagen-random img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.imagen-random img:hover {
+    transform: scale(1.1);
+}
+footer {
+    margin-top: 30px;
+    color: #d6d6d6;
+    font-size: 1rem;
+}
+footer a {
+    color: #ba55d3;
+    text-decoration: none;
+}
